@@ -6,6 +6,7 @@
 .container {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
+    margin: 0 1rem;
 }
 
 /* Main Heading */
@@ -35,10 +36,14 @@
     text-decoration: none;
     margin-right: 1rem;
 }
+/* Change the color of links on hover */
 .nav-options:hover {
     text-decoration: underline;
     color: #0582CA
 }
+/* Main Content */
+
+
 
 /* Footer */
 .social-network-info {
@@ -58,6 +63,7 @@
     color:#1D2F6F;
     font-size: 150%;
 }
+/* Change the color of links on hover */
 .footer-options:hover {
     text-decoration: underline;
     color: #0582CA
