@@ -42,12 +42,26 @@
     color:#1D2F6F;
     background-color: #EEF3FC;
     margin: 0 1rem;
+    padding: 1rem;
     line-height: 1.5rem;
 }
 
 .services-offered {
     list-style-type: none;
-    color:#1D2F6F
+    color:#1D2F6F;
+    line-height: 2rem;
+}
+
+/* Image */
+.main-page-image {
+    width: 80%;
+    height: auto;
+    max-width: 80%;
+    min-width: 20%;
+    height: auto;
+    float: center;
+    margin: 0 1rem;
+    padding: 1rem;
 }
 
 
