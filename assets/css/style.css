@@ -53,6 +53,23 @@
     color:#1D2F6F;
     line-height: 2rem;
 }
+/* Book Appointment Button on Main Page */
+.app-button {
+    display: block;
+    text-decoration: none;
+    background-color: #1D2F6F;
+    color: #EEF3FC;
+    height: 2rem;
+    width: 12rem;
+    text-align: center;
+    border-radius: 25px;
+    padding: 0.2rem;
+}
+
+.app-button:hover {
+    text-decoration: underline;
+}
+
 
 /* Images */
 img {
@@ -109,6 +126,15 @@ img {
     width: 100%;
     padding: 0.5rem;
     margin: 0 1rem;
+}
+.nav-options {
+    text-decoration: none;
+    margin-right: 2rem;
+ }
+    /* Change the color of links on hover */
+.nav-options:hover {
+    text-decoration: underline;
+    color: #0582CA
 }
 
 
