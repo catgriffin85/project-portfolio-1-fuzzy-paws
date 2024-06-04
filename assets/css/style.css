@@ -55,7 +55,6 @@
 }
 
 /* Main Content */
-
 .container {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
@@ -88,7 +87,6 @@
     text-decoration: underline;
 }
 
-
 /* Images */
 img {
     width: 20rem;
@@ -96,9 +94,7 @@ img {
     height: auto;
     margin: 0;
     padding: 0;
-
 }
-
 
 /* Footer */
 .social-network-info {
@@ -137,7 +133,7 @@ img {
 /* Media queries on screens less than 600px */
 @media screen and (max-width: 600px) {
 
-    /* List nav options vertically on screens smaller than 600px */
+ /* List nav options vertically on screens smaller than 600px */
     .nav-list {
         list-style-type: none;
         font-family: "Josefin Sans", Verdana, sans-serif;
@@ -147,7 +143,6 @@ img {
         display: list-item;
         width: 100%;
         padding: 0.5rem;
-        margin: 0 1rem;
     }
 
     .nav-options {
@@ -172,4 +167,3 @@ img {
         padding: 0;
     }
 }
-
