@@ -34,7 +34,42 @@
         </header>
         <!-- Main Content -->
         <div class="container">
-           
+           <form action="https://formdump.codeinstitute.net" method="POST">
+               <h3><i class="fa-regular fa-calendar-days"></i> Book Appointment</h3>
+                <label for="name" class="form">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Full Name" required><br>
+                <label for="number" class="form">Contact Number:</label>
+                <input type="text" id="number" name="number" required><br>
+                <label for="email" class="form">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+                <label for="date" class="form">Preferred Date & Time:</label>
+                <input type="datetime-local" id="date" name="date" required><br>
+                <label for="groomer">Do you have a preferred groomer?</label>
+                <select id="groomer" name="groomer">
+                    <option value="bella">Bella</option>
+                    <option value="coco">Coco</option>
+                    <option value="max">Max</option>
+                    <option value="nopref">No preference</option>
+                </select><br>
+                <label for="service">Select the service you would like to book</label>
+                <select id="service" name="service">
+                    <option value="bath">Bubble Baths & Sudsy Spas</option>
+                    <option value="cut"> Trendy Haircuts & Stylin' Trims</option>
+                    <option value="nails">Paw-dicures</option>
+                    <option value="ears-teeth">Ear Cleanings & Teeth Brushing</option>
+                    <option value="deshedding">De-shedding Treatments</option>
+                    <option value="spa">Spa Packages</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <label for="first-time">Has your dog been with us before?</label><br>
+                <label for="yes">Yes</label>
+                <input type="checkbox" name="yes" value="yes" required>
+                <label for="no">No</label>
+                <input type="checkbox" name="no" value="no" required><br>
+                <textarea id="add-info" name="add-info" rows="4" cols="50" placeholder="Anything we should know about your doggo...."></textarea><br>
+            <button type="submit"><strong>Book Now</strong></button>
+            <p class="disclaimer">Thank you for your appointment request. Please note that your appointment is not confirmed until we contact you to finalise the details. We appreciate your understanding.</p>
+           </form>
         </div>
         <!-- Footer -->
         <footer>
