@@ -136,8 +136,6 @@ img {
 .opening-times {
     width: 50%;
     text-align: left;
-    
-    color: red;
 }
 
 .form {
@@ -150,6 +148,11 @@ img {
     background-color: #D6E3F8;
     border: #D6E3F8;
     font-size: 15px; 
+}
+
+.disclaimer {
+    font-style: italic;
+    font-size: 90%;
 }
 
 /* Media queries on screens less than 600px */

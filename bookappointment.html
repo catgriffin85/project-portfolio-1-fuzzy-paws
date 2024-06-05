@@ -51,23 +51,23 @@
            </div><br>
              <form action="https://formdump.codeinstitute.net" method="POST">
                <h3><i class="fa-regular fa-calendar-days"></i> Book Appointment</h3>
-                <label for="name" class="form-label">Full Name:</label>
-                <input type="text" class="form" name="name" required><br>
-                <label for="number" class="form-label">Contact Number:</label>
-                <input type="text" class="form" name="number" required><br>
+                <label for="fullname" class="form-label">Full Name:</label>
+                <input type="text" id="fullname" class="form" name="fullname" required><br>
+                <label for="phonenumber" class="form-label">Contact Number:</label>
+                <input type="text" id="phonenumber" class="form" name="phonenumber" required><br>
                 <label for="email" class="form-label">Email:</label>
-                <input type="email" class="form" name="email" required><br>
-                <label for="date" class="foform-labelrm">Preferred Date & Time:</label>
-                <input type="datetime-local" class="form" name="date" required><br>
+                <input type="email" id="email" class="form" name="email" required><br>
+                <label for="date" class="form-label">Preferred Date & Time:</label>
+                <input type="datetime-local" id="date" class="form" name="date" required><br>
                 <label for="groomer">Do you have a preferred groomer?</label>
-                <select class="form" name="groomer">
+                <select id="groomer" class="form" name="groomer">
                     <option value="bella">Bella</option>
                     <option value="coco">Coco</option>
                     <option value="max">Max</option>
                     <option value="nopref">No preference</option>
                 </select><br>
                 <label for="service">Select the service you would like to book</label>
-                <select class="form" name="service">
+                <select class="form" id="service" name="service">
                     <option value="bath">Bubble Baths & Sudsy Spas</option>
                     <option value="cut"> Trendy Haircuts & Stylin' Trims</option>
                     <option value="nails">Paw-dicures</option>
@@ -78,18 +78,18 @@
                 </select><br>
                 <label for="first-time">Has your dog been with us before?</label><br>
                 <label for="yes">Yes</label>
-                <input type="checkbox" name="yes" value="yes">
+                <input type="checkbox" id="yes" name="yes" value="yes">
                 <label for="no">No</label>
-                <input type="checkbox" name="no" value="no"><br>
+                <input type="checkbox" id="no" name="no" value="no"><br>
                 <textarea class="add-info" name="add-info" rows="4" cols="50" placeholder="Anything we should know about your doggo...."></textarea><br>
-            <button type="submit"><strong>Book Now</strong></button><br>
-            <p class="disclaimer">Thank you for your appointment request. Please note that your appointment is not confirmed until we contact you to finalise the details. We appreciate your understanding.</p>
+            <button type="submit" class="app-button"><strong>Book Now</strong></button><br>
+            <p class="disclaimer">Please note that your appointment is not confirmed until we contact you to finalise the details. We appreciate your understanding.</p>
            </form><br>
            <div>
-            <p><i class="fa-solid fa-phone"></i> Or give us a call on 087 1234 56 78 and we'll get you all sorted!"</p>
+            <p><i class="fa-solid fa-phone"></i> Prefer to talk to a real person? Give us a call on 087 1234 56 78 and we'll get you all sorted!"</p>
            </div><br>
            <div>
-            <p><i class="fa-solid fa-envelope"></i> On the day of your appointment, just drop your doggo off at this address: 10 Main Road, Newtown, Co. Clare V94 W2X2.</p>
+            <p>On the day of your appointment, just drop your doggo off at this address: 10 Main Road, Newtown, Co. Clare V94 W2X2 and we'll do the rest!</p>
            </div><br>
            <div>
             <p>We can't wait to pamper your pup and make them look fabulous!</p>
