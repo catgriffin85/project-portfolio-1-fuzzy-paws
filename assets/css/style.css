@@ -131,14 +131,26 @@ img {
 }
 
 /* Book Appointment Page */
-/* Opening Times Table */
 
+/* Opening Times Table */
 .opening-times {
     width: 50%;
     text-align: left;
-    padding: 5px;
+    
+    color: red;
 }
 
+.form {
+    background-color: #D6E3F8;
+    border: #D6E3F8;
+    height: 20px;
+    font-size: 15px;   
+}
+.add-info {
+    background-color: #D6E3F8;
+    border: #D6E3F8;
+    font-size: 15px; 
+}
 
 /* Media queries on screens less than 600px */
 @media screen and (max-width: 600px) {
@@ -176,4 +188,13 @@ img {
         margin: 0;
         padding: 0;
     }
+}
+
+/* Opening Times table on Book Appointment page */
+table {
+    width: auto;
+    text-align: left;
+    padding: 5px;
+    overflow-x: auto;
+
 }
