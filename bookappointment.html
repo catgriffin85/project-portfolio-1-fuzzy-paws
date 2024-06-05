@@ -35,19 +35,10 @@
         <!-- Main Content -->
         <div class="container">
         <div>
-            <h3><i class="fa-solid fa-clock"></i> Opening Hours:</h3>
-                <table class="opening-times">
-                    <tr>
-                        <th>Mon - Fri</th>
-                        <th>Sat</th>
-                        <th>Sun & Bank Holidays</th>
-                    </tr>
-                    <tr>
-                        <td>09:00 - 18:00 </td>
-                        <td>08:00 - 19:00 </td>
-                        <td>Closed</td>
-                    </tr>
-                </table>
+            <h3><i class="fa-solid fa-clock"></i> Opening Hours:</h3><br>
+                <p class="opening-times"><strong>Mon - Fri: </strong>09:00 - 18:00</p>
+                <p class="opening-times"><strong>Sat: </strong>08:00 - 19:00</p>
+                <p class="opening-times"><strong>Sun & Bank Holidays: </strong>Closed</p>
            </div><br>
              <form action="https://formdump.codeinstitute.net" method="POST">
                <h3><i class="fa-regular fa-calendar-days"></i> Book Appointment</h3>
@@ -81,7 +72,8 @@
                 <input type="checkbox" id="yes" name="yes" value="yes">
                 <label for="no">No</label>
                 <input type="checkbox" id="no" name="no" value="no"><br>
-                <textarea class="add-info" name="add-info" rows="4" cols="50" placeholder="Anything we should know about your doggo...."></textarea><br>
+                <label for="add-info">Anthing we should know about your doggo?</label>
+                <textarea class="add-info" name="add-info" rows="4" cols="50" placeholder="Let us know here..."></textarea><br>
             <button type="submit" class="app-button"><strong>Book Now</strong></button><br>
             <p class="disclaimer">Please note that your appointment is not confirmed until we contact you to finalise the details. We appreciate your understanding.</p>
            </form><br>

@@ -132,12 +132,7 @@ img {
 
 /* Book Appointment Page */
 
-/* Opening Times Table */
-.opening-times {
-    width: 50%;
-    text-align: left;
-}
-
+/* Book Appointment form */
 .form {
     background-color: #D6E3F8;
     border: #D6E3F8;
@@ -148,8 +143,9 @@ img {
     background-color: #D6E3F8;
     border: #D6E3F8;
     font-size: 15px; 
+    wrap: hard;
 }
-
+/* Appointment booking disclaimer */
 .disclaimer {
     font-style: italic;
     font-size: 90%;
@@ -191,13 +187,4 @@ img {
         margin: 0;
         padding: 0;
     }
-}
-
-/* Opening Times table on Book Appointment page */
-table {
-    width: auto;
-    text-align: left;
-    padding: 5px;
-    overflow-x: auto;
-
 }
