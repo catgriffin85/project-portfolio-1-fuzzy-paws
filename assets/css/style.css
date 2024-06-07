@@ -154,6 +154,14 @@ img {
     font-size: 90%;
 }
 
+/* About Us Page */
+.how-it-started img {
+    width: 2em;
+    height: 10em;
+    float: right;
+    padding: 1rem 1rem;
+}
+
 /* Media queries on screens less than 600px */
 @media screen and (max-width: 600px) {
 
