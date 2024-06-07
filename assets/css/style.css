@@ -155,11 +155,20 @@ img {
 }
 
 /* About Us Page */
-.how-it-started img {
-    width: 2em;
-    height: 10em;
-    float: right;
-    padding: 1rem 1rem;
+.bella-image img {
+    width: 15rem;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.coco-image img {
+    width: auto;
+    max-width: 100%;
+    height: 20rem;
+    margin: 0;
+    padding: 0;
 }
 
 /* Media queries on screens less than 600px */
