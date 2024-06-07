@@ -138,12 +138,14 @@ img {
     border: #D6E3F8;
     height: 20px;
     font-size: 15px;
+    color:#1D2F6F;
 }
 
 .add-info {
     background-color: #D6E3F8;
     border: #D6E3F8;
     font-size: 15px;
+    color:#1D2F6F;
 }
 
 /* Appointment booking disclaimer */
@@ -187,5 +189,14 @@ img {
         min-width: 80%;
         margin: 0;
         padding: 0;
+    }
+
+    /* Additional Information free text box */
+    .add-info {
+        background-color: #D6E3F8;
+        border: #D6E3F8;
+        font-size: 15px;
+        color:#1D2F6F;
+        max-width: 100%;
     }
 }
