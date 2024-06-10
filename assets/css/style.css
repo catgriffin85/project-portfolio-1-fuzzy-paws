@@ -138,14 +138,14 @@ img {
     border: #D6E3F8;
     height: 20px;
     font-size: 15px;
-    color:#1D2F6F;
+    color: #1D2F6F;
 }
 
 .add-info {
     background-color: #D6E3F8;
     border: #D6E3F8;
     font-size: 15px;
-    color:#1D2F6F;
+    color: #1D2F6F;
 }
 
 /* Appointment booking disclaimer */
@@ -213,7 +213,15 @@ img {
         background-color: #D6E3F8;
         border: #D6E3F8;
         font-size: 15px;
-        color:#1D2F6F;
+        color: #1D2F6F;
         max-width: 100%;
+    }
+
+    /* About Us Images */
+    .coco-image img {
+        object-fit: contain;
+        height: 20rem;
+        margin: 0;
+        padding: 0;
     }
 }
