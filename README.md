@@ -71,4 +71,40 @@ The [Fuzzy Paws Dog Grooming](https://catgriffin85.github.io/project-portfolio-1
 ![Form Confirmation](./assets/images/readme/formConfirmation.png)
 
 * HTML
-    * I ran my HTML code through the W3C validator and no errors were found
+    * I ran my HTML code through the W3C validator and no errors were found.
+![HTML Validator](./assets/images/readme/htmlChecker.png)
+
+* CSS
+    * I ran my CSS code through the W3C validaotr and no errors were found.
+![CSS Validator](./assets/images/readme/cssCheck.png)
+
+## Bugs
+There was a bug causing an error in the width of the navigation bar and the footer. I tried fixing it by going back over videos in the course and googling but nothing I tried worked. I spoke to my mentor about it during our mid project meeting and he identified that it was down to the margins. To fix the issue I used the CSS to give a general margin to all elements on my page and removed margins from individual elements.
+
+No unfixed bugs
+
+## Deployment
+
+* Git Commit
+    * This project was created in Gitpod and pushed to GitHub to the repository [project-portfolio-1-fuzzy-paws](https://github.com/catgriffin85/project-portfolio-1-fuzzy-paws)
+    * git add . and git commit was used throughout the project to push the code to my repository. 
+    * I used descriptive and meanful message when using git commit and commited often.
+
+* Deployment to GitHub
+    * The steps used to deploy were as follows:
+        * In the GitHub repository, navigate to the Settings tab
+        * From the source section drop-down menu, select the Master Branch
+        * Once the master branch has been selected, the page will be automatically refereshed with a detailed ribbon display to indicate the successful deployment
+
+## Credits
+* A very big thank you to my Mentor who was so incredible helpful and really took the time to go through everything with me. 
+
+* Content
+    * The icons used throughout the website were taken from [Font Awesome](https://fontawesome.com/)
+    * The social media links just direct to Facebook and Instgram and not specific pages as this business is fictional.
+    * The favicon used in the title of the page was taken from [Favicon](https://favicon.io/)
+
+* Images
+    * All images were taken from [Pexels](https://www.pexels.com/)
+
+
