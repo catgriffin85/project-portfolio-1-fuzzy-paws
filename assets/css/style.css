@@ -191,6 +191,10 @@ img {
         margin-right: 2rem;
     }
 
+    li {
+        margin-bottom: 0.5rem;
+    }
+
     /* Change the color of links on hover */
     .nav-options:hover {
         text-decoration: underline;
