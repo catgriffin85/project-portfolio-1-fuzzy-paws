@@ -58,6 +58,17 @@ The [Fuzzy Paws Dog Grooming](https://catgriffin85.github.io/project-portfolio-1
     * And finallly an introduction to the groomers with some images of them grooming
 ![Team Information](./assets/images/readme/meetTheTeam.png)
 
+## Testing
 
-    
+* Lighthouse
+    * I ran my pages through Lighthouse to check Performance, Accessibility, Best Practices and SEO. All passed with scores of 97 or greater.
+![Lighthouse](./assets/images/readme/lighthouseResults.png)
 
+* Page Links
+    * I tested all my links on the Nav Bar and the call to action button on the main page to ensure they were all working and redirecting to the correct pages on the website.
+    * I tested the social media links in the footer were working and opening in a new tab.
+    * I tested the appointment booking form and confirmed all the boxes were validated, only one radio button was selected and the submit button was working correctly.
+![Form Confirmation](./assets/images/readme/formConfirmation.png)
+
+* HTML
+    * I ran my HTML code through the W3C validator and no errors were found
