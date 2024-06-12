@@ -24,7 +24,7 @@ The [Fuzzy Paws Dog Grooming](https://catgriffin85.github.io/project-portfolio-1
     * The main page provides a list of services that are offered by the shop and includes a short description of each service.
 ![List of Services](./assets/images/readme/servicesOffered.png)
 
-    * Below the list of serices is a call to action button inviting customers to book an appointment with one of the dog groomers. This button links to the Book Appointment page.
+    * Below the list of services is a call to action button inviting customers to book an appointment with one of the dog groomers. This button links to the Book Appointment page.
 ![Call to Action Button](./assets/images/readme/callToAction.png)
 
     * Included at the bottom of the main content are three images of dogs being groomed to show customers what they can expect when the use the service.
