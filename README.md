@@ -1,37 +1,39 @@
 # Fuzzy Paws Dog Grooming
 
-The [Fuzzy Paws Dog Grooming](https://catgriffin85.github.io/project-portfolio-1-fuzzy-paws/) is a website for a small dog grooming business. The website outlines the services offered and allows customers to book an appointment online. Users can also see images of dogs that have been groomed in the grooming shop and information about the team that work there.
+The [Fuzzy Paws Dog Grooming](https://catgriffin85.github.io/project-portfolio-1-fuzzy-paws/) project is a website for a small dog grooming business. The website provides information to customers about the services offered by the shop and allows customers to request an appointment online via a booking form. Customers can also see images of dogs that have been groomed in the grooming shop, how the business started and information about the team that work there.
 
 ![Screenshot Generator](./assets/images/readme/screenshotgenerator.png)
 
 ## Features
 
 * Header
-    * Centered at the top of the page is the company name with a pawprint icon 
+    * Centered at the top of the page in the header is the company name with a pawprint icon. 
 
 * Navigation Bar
+    * The navigation bar has three links - Home, Book Appointment and About Us 
     * The navigation links are centered and feature on the top of all three pages.
     * On larger screens the links are shown alongside each other and on smaller screens they are listed underneath each other. 
+
 ![Header and Navigation Bar](./assets/images/readme/headerAndNavBar.png)
 
 * Main Page 
 
-    * This is the landing page with a fun and friendly introduction to the dog grooming shop.
+    * This is the landing page and starts with a fun and friendly introduction to the dog grooming shop.
 ![Introduction](./assets/images/readme/introduction.png)
 
-    * There is a list of services that are offered by the shop including a relevant icon and a short description of each service.
+    * The main page provides a list of services that are offered by the shop and includes a short description of each service.
 ![List of Services](./assets/images/readme/servicesOffered.png)
 
-    * Below the list of serices is a call to action button inviting users to book an appointment in the shop. This button links to the Book Appointment page.
+    * Below the list of serices is a call to action button inviting customers to book an appointment with one of the dog groomers. This button links to the Book Appointment page.
 ![Call to Action Button](./assets/images/readme/callToAction.png)
 
-    * Included also are three images of dogs being groomed to show customers what to expect.
+    * Included at the bottom of the main content are three images of dogs being groomed to show customers what they can expect when the use the service.
 ![Grooming Images](./assets/images/readme/mainPageImages.png)
 
 * Footer
 
-    * The footer section invites customers to follow the shop on their Facebook and Instagram pages and offer an insight into what goes on in the shop when grooming.
-    * Links to Facebook and Istagram open in a new tab.
+    * The footer section invites customers to follow the shop on their Facebook and Instagram pages and offers an insight into what goes on in the shop during the dog grooming process.
+    * Links to Facebook and Instagram open in a new tab.
 ![Footer](./assets/images/readme/footer.png)
 
 * The Book Appointment Page
